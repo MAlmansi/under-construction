@@ -3,186 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Regulayze - Organization Profile</title>
+    <title>Regulayze Organization Profile</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f9f9f9;
             color: #333;
         }
         header {
             background-color: #004d99;
-            color: white;
+            color: #fff;
+            padding: 1rem 2rem;
             text-align: center;
-            padding: 20px 0;
         }
-        header h1 {
+        nav {
+            background-color: #003366;
+            padding: 0.5rem;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
             margin: 0;
+            display: flex;
+            justify-content: center;
         }
-        section {
-            margin: 20px;
+        nav ul li {
+            margin: 0 1rem;
         }
-        h2 {
-            color: #004d99;
+        nav ul li a {
+            color: white;
+            text-decoration: none;
         }
-        .content {
-            margin-bottom: 30px;
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
-        .content p {
-            line-height: 1.6;
+        .section {
+            margin-bottom: 2rem;
+        }
+        .section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
         }
         footer {
             background-color: #004d99;
-            color: white;
+            color: #fff;
             text-align: center;
-            padding: 10px;
+            padding: 1rem;
+            margin-top: 2rem;
         }
-        .contact-info {
-            list-style-type: none;
-            padding: 0;
-        }
-        .contact-info li {
-            margin: 5px 0;
+        h1, h2 {
+            color: #004d99;
         }
     </style>
 </head>
 <body>
+    <header>
+        <h1>Regulayze</h1>
+        <p>Revolutionizing RegTech, Empowering FinTech</p>
+    </header>
 
-<header>
-    <h1>Regulayze</h1>
-    <p>Revolutionizing RegTech, Empowering FinTech</p>
-</header>
-
-<section>
-    <h2>Introduction</h2>
-    <div class="content">
-        <p>At Regulayze, we empower businesses across the MENA region to navigate the complexities of compliance and regulation. Our expert team provides tailored guidance on the regulations set by the Central Banks and other regulatory bodies. We deliver in-depth market analysis and insights into the latest fintech advancements, ensuring that your business remains compliant and competitive in today’s rapidly evolving landscape.</p>
-    </div>
-</section>
-
-<section>
-    <h2>About Us</h2>
-    <div class="content">
-        <p>With a strong focus on MENA’s burgeoning financial sector and an eye on global trends, Regulayze is committed to delivering value-driven solutions that ensure compliance, foster innovation, and drive growth. Our expertise in both RegTech and fintech positions us as a trusted partner for organizations seeking to thrive in the intersection of these dynamic fields.</p>
-    </div>
-</section>
-
-<section>
-    <h2>Our Mission & Vision</h2>
-    <div class="content">
-        <p><strong>Mission:</strong> To provide innovative, tailored solutions that simplify compliance and enable businesses to achieve excellence in regulatory and financial technology.</p>
-        <p><strong>Vision:</strong> To be the leading advisory firm in RegTech and fintech, driving innovation and compliance excellence in Jordan and beyond.</p>
-    </div>
-</section>
-
-<section>
-    <h2>Core Values</h2>
-    <div class="content">
+    <nav>
         <ul>
-            <li>Integrity: We prioritize transparency and ethical practices in every solution we deliver.</li>
-            <li>Innovation: We embrace cutting-edge technologies and creative strategies to address our clients’ challenges.</li>
-            <li>Client-Centricity: Our clients’ success is at the heart of everything we do.</li>
-            <li>Excellence: We are committed to delivering the highest quality services and insights.</li>
-            <li>Collaboration: We work hand-in-hand with our clients, fostering strong partnerships to achieve shared goals.</li>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
+    </nav>
+
+    <div class="container">
+        <section id="introduction" class="section">
+            <h2>Introduction</h2>
+            <p>At Regulayze, we empower businesses across the MENA region to navigate the complexities of compliance and regulation. Our expert team provides tailored guidance on the regulations set by the Central Banks and other regulatory bodies. We deliver in-depth market analysis and insights into the latest fintech advancements, ensuring that your business remains compliant and competitive in today’s rapidly evolving landscape.</p>
+        </section>
+
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <p>With a strong focus on MENA’s burgeoning financial sector and an eye on global trends, Regulayze is committed to delivering value-driven solutions that ensure compliance, foster innovation, and drive growth. Our expertise in both RegTech and fintech positions us as a trusted partner for organizations seeking to thrive in the intersection of these dynamic fields.</p>
+            <h3>Our Mission</h3>
+            <p>To provide innovative, tailored solutions that simplify compliance and enable businesses to achieve excellence in regulatory and financial technology.</p>
+            <h3>Our Vision</h3>
+            <p>To be the leading advisory firm in RegTech and fintech, driving innovation and compliance excellence in Jordan and beyond.</p>
+            <h3>Core Values</h3>
+            <ul>
+                <li>Integrity: Transparency and ethical practices in every solution we deliver.</li>
+                <li>Innovation: Embracing cutting-edge technologies and creative strategies.</li>
+                <li>Client-Centricity: Our clients’ success is at the heart of everything we do.</li>
+                <li>Excellence: Delivering the highest quality services and insights.</li>
+                <li>Collaboration: Strong partnerships to achieve shared goals.</li>
+            </ul>
+        </section>
+
+        <section id="services" class="section">
+            <h2>Our Services</h2>
+            <h3>Regulatory Compliance Consulting</h3>
+            <p>Equipping businesses with the knowledge and tools necessary to navigate the complex regulatory landscape.</p>
+            <h3>Market Analysis and Insights</h3>
+            <p>Providing actionable insights into the latest fintech developments and market dynamics in the MENA region.</p>
+            <h3>FinTech Regulatory Guidance</h3>
+            <p>Specialized advice to navigate the evolving regulatory landscape of the financial technology sector.</p>
+            <h3>Business Training and Coaching</h3>
+            <p>Tailored training programs and workshops designed to enhance compliance expertise and drive business success.</p>
+        </section>
+
+        <section id="team" class="section">
+            <h2>Team and Expertise</h2>
+            <p>Our team comprises experts with extensive experience in compliance, financial technology, and regulatory frameworks. Each member brings a unique perspective, ensuring comprehensive solutions tailored to our clients’ needs.</p>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>Address: Amman, Jordan</p>
+            <p>Email: <a href="mailto:info@regulayze.com">info@regulayze.com</a></p>
+            <p>Website: <a href="http://www.regulayze.com" target="_blank">www.regulayze.com</a></p>
+        </section>
     </div>
-</section>
 
-<section>
-    <h2>Our Services</h2>
-    <div class="content">
-        <h3>Regulatory Compliance Consulting</h3>
-        <p>Regulatory Compliance Consulting equips your business with the knowledge and tools necessary to navigate the complex regulatory landscape. Our experts stay updated with the latest compliance requirements set by the Central Banks and other regulatory bodies in the MENA region. We analyze your current practices and provide tailored solutions to ensure adherence to all regulations, mitigating risks and enhancing your operational integrity. Partner with us to streamline your compliance processes and focus on what you do best—growing your business confidently in a regulated environment.</p>
-        <ul>
-            <li>Tailored compliance strategies to help organizations meet regulatory requirements efficiently.</li>
-            <li>Implementation of advanced regulatory technologies to streamline processes and reduce risks.</li>
-            <li>AML and CFT solutions to meet compliance requirements. PEP List API updated every 2 weeks.</li>
-            <li>Licensing consulting for FIs and Fintechs with providing submissions files assistance to new and existing bodies aiming to obtain their licenses to operate in MENA Region.</li>
-        </ul>
-
-        <h3>Market Analysis and Insights</h3>
-        <p>Market Analysis and Insights offers your business a thorough understanding of market trends and consumer behavior. Our dedicated team conducts extensive research to provide you with actionable insights into the latest fintech developments and market dynamics in the MENA region. By identifying opportunities and potential challenges, we empower you to make informed decisions that drive growth and innovation. Utilize our expertise to stay ahead of the competition and adapt swiftly to changes in the market landscape, ensuring that your business remains relevant and competitive in an ever-evolving industry.</p>
-        <ul>
-            <li>In-depth analysis of fintech innovations and their implications for businesses.</li>
-            <li>Comprehensive research reports to guide decision-making and strategy development.</li>
-            <li>Thorough study for enterprises status and gaps analysis on both operational level and regulatory along with providing detailed plans and keen follow-up to close those gaps.</li>
-        </ul>
-
-        <h3>Fintech Regulatory Guidance</h3>
-        <p>Fintech Regulatory Guidance helps your business navigate the evolving regulatory landscape of the financial technology sector. We specialize in understanding the intricate regulations governing fintech operations in the MENA region, ensuring that your business remains compliant with the latest guidelines. Our team of experts provides tailored advice and support, allowing you to innovate while adhering to regulatory requirements. By staying informed about industry changes, we help you minimize risks and capitalize on opportunities within the fintech space, positioning your business for success in a competitive market.</p>
-        <ul>
-            <li>Regulatory Landscape Analysis: Provide clients with in-depth analysis and insights into the evolving fintech regulatory environment in Jordan and globally.</li>
-            <li>Regulatory Compliance Strategy Development: Assist fintech companies in developing robust compliance frameworks that align with regulatory requirements.</li>
-        </ul>
-
-        <h3>Business Training and Coaching</h3>
-        <p>Business Training & Coaching equips fintech professionals and financial institutions with the knowledge and skills needed to navigate regulatory complexities and drive business success. We offer tailored training programs, executive coaching, and interactive workshops designed to enhance compliance expertise, risk management capabilities, and strategic decision-making. Our programs are crafted to address the unique challenges of the fintech and financial services industry, ensuring that businesses remain agile and well-prepared in an evolving regulatory landscape.</p>
-        <ul>
-            <li>Regulatory & Compliance Training: Provide in-depth training on financial regulations, compliance frameworks, and risk management strategies.</li>
-            <li>Leadership & Business Growth Coaching: Offer executive coaching and mentorship programs to fintech entrepreneurs and business leaders.</li>
-            <li>Certificate of attendance for various training courses authorized by regulatory bodies in Jordan.</li>
-        </ul>
-    </div>
-</section>
-
-<section>
-    <h2>Target Audience</h2>
-    <div class="content">
-        <p>Regulayze caters to a diverse clientele across MENA region, including:</p>
-        <ul>
-            <li>Financial institutions</li>
-            <li>Fintech startups</li>
-            <li>Regulatory bodies</li>
-            <li>Corporate entities seeking compliance solutions: AML, CFT, Compliance Requirements for corporates, Tech.</li>
-            <li>Micro and Nano Finance Institutions</li>
-            <li>SMEs and Large Corporates aiming to comply with new regulations.</li>
-        </ul>
-    </div>
-</section>
-
-<section>
-    <h2>Team and Expertise</h2>
-    <div class="content">
-        <p>Our team comprises experts with extensive experience in compliance, financial technology, and regulatory frameworks. Each member brings a unique perspective, ensuring comprehensive solutions tailored to our clients’ needs.</p>
-        <ul>
-            <li>Compliance Heads from Commercial and Islamic Banks background</li>
-            <li>Heads of Businesses from Banks and MicroFinance Institutions backgrounds</li>
-            <li>Data Engineers from Financial Institutions and regulatory bodies background</li>
-            <li>Heads of Legal from Banks and Financial Institutions backgrounds</li>
-            <li>HR Heads from Banks and Big Four backgrounds</li>
-            <li>Heads of Finance from FinTech and Other financial Institutions backgrounds</li>
-        </ul>
-    </div>
-</section>
-
-<section>
-    <h2>Why Choose Regulayze?</h2>
-    <div class="content">
-        <ul>
-            <li>Tailored Solutions: Every client receives customized strategies designed to address their unique challenges.</li>
-            <li>Local Expertise: Deep understanding of Jordan’s regulatory landscape.</li>
-            <li>Innovation-Driven: Commitment to leveraging the latest technologies to deliver results.</li>
-        </ul>
-    </div>
-</section>
-
-<section>
-    <h2>Contact Us</h2>
-    <div class="content">
-        <ul class="contact-info">
-            <li>Address: Amman, Jordan</li>
-            <li>Email: <a href="mailto:info@regulayze.com">info@regulayze.com</a></li>
-            <li>Website: <a href="http://www.regulayze.com" target="_blank">www.regulayze.com</a></li>
-        </ul>
-    </div>
-</section>
-
-<footer>
-    <p>&copy; 2025 Regulayze. All rights reserved.</p>
-</footer>
-
+    <footer>
+        <p>&copy; 2025 Regulayze. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
